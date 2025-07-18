@@ -1,0 +1,24 @@
+{
+  "name": "indonesian-names",
+  "version": "1.0.0",
+  "description": "Indonesian names generator",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutiawsr/indonesian-names.git"
+  },
+  "keywords": [
+    "indonesian",
+    "fake-name",
+    "name-generator"
+  ],
+  "author": "Mutia Wulansari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mutiawsr/indonesian-names/issues"
+  },
+  "homepage": "https://github.com/mutiawsr/indonesian-names#readme"
+}
