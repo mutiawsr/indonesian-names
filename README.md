@@ -11,10 +11,25 @@ This is an Indonesian names generator.
 | `lastFemale()`  | Returns a female-associated last name                 | `"Febriani"`      |
 | `lastMale()`    | Returns a male-associated last name                   | `"Prasetyo"`       |
 
+#### 📦 Installation via NPM
+
+```bash
+npm i indonesian-names
+```
+
+#### 🛠 Usage
+
+```js
+const name = require('indonesian-names');
+
+console.log(name.fullMale());     // e.g., "Agus Satrio"
+console.log(name.firstFemale());  // e.g., "Indri"
+```
+
 #### 🔮 Upcoming Features:
 
 - Broader range of Indonesian names
 - Additional formats and region-based names
 - Batch name generation (e.g., `generateMany(10)`)
-- NPM & API support
+- API support
 - Export to JSON or CSV
