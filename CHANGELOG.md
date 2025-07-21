@@ -1,5 +1,8 @@
 ## 📝 Change Log
 
+#### [1.0.4] - 2025-07-21
+- Updated LICENSE
+
 #### [1.0.3] - 2025-07-21
 - Added CHANGELOG.md
 - Refined name data, removed duplicates, incorrect names, and some uncommon names
