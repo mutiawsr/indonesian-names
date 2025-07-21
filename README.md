@@ -26,7 +26,7 @@ console.log(name.fullMale());     // e.g., "Agus Satrio"
 console.log(name.firstFemale());  // e.g., "Indri"
 ```
 
-#### 🔮 Upcoming Features:
+#### 🔮 Upcoming Features
 
 - Broader range of Indonesian names
 - Additional formats and region-based names
