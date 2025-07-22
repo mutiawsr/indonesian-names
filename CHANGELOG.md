@@ -1,5 +1,8 @@
 ## 📝 Change Log
 
+#### [1.1.2] - 2025-07-22
+- Update README.md
+
 #### [1.1.1] - 2025-07-22
 - Remove comments and logger
 

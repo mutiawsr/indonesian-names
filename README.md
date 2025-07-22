@@ -22,7 +22,7 @@ For more control, use `fullName()`, `firstName()`, or `lastName()` to generate n
 // default parameters
 fullName(gender = "neutral", cross = false, words = 2, generateMany = 1)
 firstName(gender = "neutral", generateMany = 1)
-lastname(gender = "neutral", generateMany = 1)
+lastName(gender = "neutral", generateMany = 1)
 ```
 
 - `gender` (`"neutral"` | `"male"` | `"female"`): Specifies the gender style of the first name.
@@ -33,8 +33,10 @@ lastname(gender = "neutral", generateMany = 1)
 ### Examples
 
 ```js
-fullName("female", true, 3, 3)     // e.g., [ 'Desi Diah Mahendra', 'Monica Rahayu Rahardian', 'Syifa Lilis Priyanto' ]
-fullName("male", false, 4, 2)      // e.g., [ 'Kartono Reza Bagus Marwan', 'Hendro Purwanto Fajar Arfan' ]
+fullName("female", true, 3, 3)  // e.g., [ 'Desi Diah Mahendra', 'Monica Rahayu Rahardian', 'Syifa Lilis Priyanto' ]
+fullName("male", false, 4, 2)   // e.g., [ 'Kartono Reza Bagus Marwan', 'Hendro Purwanto Fajar Arfan' ]
+firstName("female", 3)          // e.g., [ 'Raisa', 'Kirana', 'Lina' ]
+lastName("male", 2)             // e.g., [ 'Harun', 'Suryana' ]
 ```
 
 > 🔍 Tip: `fullMale()`, `fullFemale()`, and `fullNeutral()` are convenient wrappers around `fullName()`, `firstName()`, and `lastName()`, but you can also use `generateMany` parameter for batch generation, e.g., `firstMale(3)` or `lastFemale(5)` to get an array of names.
