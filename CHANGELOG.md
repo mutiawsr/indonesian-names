@@ -1,5 +1,8 @@
 ## 📝 Change Log
 
+#### [1.1.1] - 2025-07-22
+- Remove comments and logger
+
 #### [1.1.0] - 2025-07-22
 - NEW: Gender-neutral name generators `fullNeutral()`, `firstNeutral()`, `lastNeutral()`
 - NEW: Customizable name generation `fullName()`, `firstName()`, `lastName()`
