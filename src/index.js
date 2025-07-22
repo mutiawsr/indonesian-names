@@ -2,20 +2,6 @@ const { loadCsv } = require("./utils/csvLoader");
 const { getRandomElement } = require('./utils/random');
 const { handleGenerateMany } = require('./utils/generateMany');
 
-console.log(fullName("female", true, 3, 3));
-console.log(fullName("male", false, 4, 2));
-console.log(firstName("female", 3));
-console.log(lastName("male", 4));
-// console.log(fullFemale(3));
-// console.log(fullMale(3));
-// console.log(fullNeutral(3)); 
-// console.log(firstFemale(3));
-// console.log(firstMale(3));
-// console.log(firstNeutral(3));
-// console.log(lastFemale(3));
-// console.log(lastMale(3));
-// console.log(lastNeutral(3));
-
 function fullName(gender = "neutral", cross = false, words = 2, generateMany = 1) {
   let firstNames, lastNames;
 
